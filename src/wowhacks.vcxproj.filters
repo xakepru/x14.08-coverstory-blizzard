@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="HacksController.cpp" />
+    <ClCompile Include="wowhacks.cpp" />
+    <ClCompile Include="_Base_mod\Base_mod.cpp">
+      <Filter>_shared modules</Filter>
+    </ClCompile>
+    <ClCompile Include="_Debug_mod\Debug_mod.cpp">
+      <Filter>_shared modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\WardenLoaderHack.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\RunScriptHack.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_lib\HackBase.cpp">
+      <Filter>pb_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_lib\Logger.cpp">
+      <Filter>pb_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_lib\Patcher.cpp">
+      <Filter>pb_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_lib\Scanner.cpp">
+      <Filter>pb_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_lib\Warden.cpp">
+      <Filter>pb_lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HacksController.h" />
+    <ClInclude Include="wowhacks.h" />
+    <ClInclude Include="_Debug_mod\Debug_mod.h">
+      <Filter>_shared modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\WardenLoaderHack.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\RunScriptHack.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_lib\Delegates.h">
+      <Filter>pb_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_lib\HackBase.h">
+      <Filter>pb_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_lib\Logger.h">
+      <Filter>pb_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_lib\Patcher.h">
+      <Filter>pb_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_lib\PB_internal.h">
+      <Filter>pb_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_lib\Scanner.h">
+      <Filter>pb_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_lib\Warden.h">
+      <Filter>pb_lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\ntdll.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_shared modules">
+      <UniqueIdentifier>{b4f104cb-202a-48c1-83ff-a7de99ef4d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{7dd6509a-299e-45f9-9031-9501d62bb11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pb_lib">
+      <UniqueIdentifier>{9c12ed80-1b33-40a6-b5e4-31e2807247af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="_Inject_mod\Inject_mod.obj">
+      <Filter>_shared modules</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
